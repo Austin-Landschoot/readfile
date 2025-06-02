@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv) {
     if (argc == 1) {
-        printf("No file provided.");
+        printf("No file provided.\n");
         return 1;
     }
     else if (argc == 2) {
@@ -15,12 +15,12 @@ int main(int argc, char **argv) {
             return 0;
         }
         else {
-            perror("File not found");
+            perror("File not found\n");
             return 1;
         }
     }
     else {
-        printf("Too many arguments provided.");
+        printf("Too many arguments provided.\n");
         return 1;
     }
 }
