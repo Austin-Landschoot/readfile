@@ -1,2 +1,2 @@
 # readfile
-My own remake of the cat command.
+My first c project. A remake of the linux cat command.
