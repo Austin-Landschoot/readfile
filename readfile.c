@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
             return 0;
         }
         else {
-            perror("File not found\n");
+            perror("File not found");
             return 1;
         }
     }
